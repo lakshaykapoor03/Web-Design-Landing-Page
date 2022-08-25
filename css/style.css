@@ -89,3 +89,51 @@ h4 {
     position: relative;
     right: 5%;
 }
+
+@media screen and (max-width:768px){
+  
+.nav-items,.vector-img,.vector-dot{
+  display:none;
+}
+
+.logo{
+  width: 20%;
+}
+
+h1{
+  
+  font-size: 50px;
+}
+
+.intro-img{
+  position: absolute;
+  width:50%;
+  left:10%;
+  top:50%;
+}
+
+
+.learn-more-btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 40px 40px;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #965cf2, #ff8adc);
+  margin-top: 350px;
+  margin-left: 100px;;
+}
+
+.backover-img{
+  position: absolute;
+  z-index: -1;
+  left: 10%;
+  width: 50%;
+  top: 50%;
+}
+
+
+}
+  
